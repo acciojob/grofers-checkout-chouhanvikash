@@ -9,7 +9,7 @@ const getSum = () => {
 	let sum=0;
 	for(let i=0;i<arr.length;i++)
 		{
-			sum+=arr[i].textContent;
+			sum+=parseInt(arr[i].textContent);
 		}
 	let table = document.getElementsByTagName("table")[0];
 let tbody = table.tBodies[0];
