@@ -18,10 +18,10 @@ let tbody = table.tBodies[0];
 let row = tbody.insertRow();
 
 // Insert a new cell in that row (first column)
-let cell = row.insertCell(0);
+// let cell = row.insertCell(0);
 
 // Put some text inside the cell
-cell.textContent = sum;  // assuming sum is defined somewhere
+row.textContent = sum;  // assuming sum is defined somewhere
 
   
 };
